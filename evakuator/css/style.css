@@ -1,0 +1,292 @@
+/*--- верхняя серая линия ---*/
+.grey-line {
+    background: #f5f5f5;
+    padding: 8px 0;
+}
+
+/******************************
+Header
+******************************/
+
+.site-header {
+    height: 90px;
+    border-bottom: 1px solid #FAFAFA;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.05);
+    background: #fff;
+}
+.site-header .main-nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.main-nav, ul, li, a {
+    color: #9A9A9A;
+}
+
+.main-nav, ul, li, a:hover {
+    /* color: #e61c19; */
+    color: #F49C9B;
+}
+
+.col-lg-4 .main-logo {
+    /* width: 100%; */
+    height: 90px;
+}
+
+.site-header h4.title-logo {
+    float: right;
+    padding: 12px 40px 0 0;
+    color: #4A4A4A;
+    text-transform: uppercase;
+}
+
+.site-header h4.title-logo span {
+    color:#D32836;
+}
+
+.main-nav, .nav, .nav-tabs {
+    border-bottom: none;
+}
+
+
+/***************************
+MAIN
+****************************/
+
+
+/*------------------------ADV--------------------*/
+
+.main ul {
+    margin: 50px 0;
+}
+
+.main ul li {
+    list-style-type: none;
+    color: #000;
+    margin: 1% 0;
+}
+
+.main ul li span {
+    color: #D32836;
+}
+
+.main .block-adv {
+    background-image: url(../img/evakuator-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    padding: 50px 0;
+    margin: 40px 0;
+}
+
+.block-adv h3.title-adv {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.block-adv ul li {
+    font-size: 1.5rem;
+}
+
+/*-----------------------CARDS------------------*/
+
+.main .card h5.card-title {
+    font-size: 1.5rem;
+    color: #4A4A4A;
+    padding: 20px 0;
+    border-bottom: 1px solid #D32836;
+}
+
+.main h1 {
+    color: #4A4A4A;
+    padding: 20px 0;
+}
+
+.main h3 {
+    color: #989898;
+    padding: 0 0 40px 0;
+}
+
+.main .card ul {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.main .card ul li {
+    color: #ABABAB;
+    text-align: left;
+}
+
+.main .card ul li div {
+    float: right;
+}
+
+.main .card ul li span {
+    color: #989898;
+    font-weight: bold;
+}
+
+.main .card ul a {
+    color: #D32836;
+    border: 1px solid #D32836;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 40px 0 20px 0;
+}
+
+.main .card ul a:hover {
+    color: #fff;
+    border: 1px solid #D32836; 
+    background: #D32836;
+    border-image: 1px solid #fff;
+}
+
+.main .card ul a img {
+    padding-bottom: 5px;
+}
+
+
+div.main ul li:nth-child(6) {
+    margin-bottom: 35px;
+}
+/* div.main > div > div > div.col-lg-12.text-center > div > div:nth-child(1) > div > ul > li:nth-child(6) {
+    margin-bottom: 35px;
+} */
+
+.main .card {
+    margin: 20px 0;
+}
+
+
+/*****************************
+MAP
+******************************/
+
+section.map {
+    background: #F8F2F0;
+    padding: 40px 0;
+    margin: 40px 0;
+}
+
+section.map h2 {
+    color: #4A4A4A;
+}
+
+section.map h3 {
+    color: #989898;
+    padding-bottom: 25px;
+}
+
+/*****************************
+Economim
+******************************/
+section.economim h3 {
+    color: #4A4A4A;
+    margin: 40px auto;
+}
+
+section.economim div.econom-card img {
+    display: inline-block;
+    margin: 20px 95px 20px 95px;
+}
+
+section.economim div.econom-card h5 {
+    margin: 15px auto;
+}
+
+section.economim div.econom-card p {
+    padding-bottom: 40px;
+}
+
+/*****************************
+Zakaz
+******************************/
+
+section.zakaz {
+    background: #F8F2F0;
+    padding: 40px 0;
+    margin: 40px 0;
+}
+
+section.zakaz h2 {
+    color: #4A4A4A;
+    margin: 40px auto;
+}
+
+section.zakaz a {
+    color: #D32836;
+    border: 1px solid #D32836;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+section.zakaz a:hover {
+    color: #fff;
+    border: 1px solid #D32836; 
+    background: #D32836;
+    border-image: 1px solid #fff;
+}
+
+section.zakaz a img {
+    padding-bottom: 5px;
+}
+
+/*****************************
+Seo-block
+******************************/
+
+section.seo-block h3 {
+    color: #4A4A4A;
+}
+
+section.seo-block ul li {
+    color: #989898;
+}
+
+/*****************************
+Footer
+******************************/
+footer.site-footer {
+    background: #F8F2F0;
+    padding: 40px 0 0 0;
+    margin: 20px 0 0 0;
+}
+
+footer.site-footer ul li {
+    list-style-type: none;
+}
+
+footer.site-footer ul li.phone {
+    padding-right: 24px; 
+}
+
+footer.site-footer ul li.viber {
+    padding-right: 24px; 
+}
+
+footer.site-footer ul li.mail {
+    padding-right: 57px; 
+}
+
+footer.site-footer ul li.calendar {
+    padding-right: 0px; 
+}
+
+
+footer.site-footer ul li div {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+

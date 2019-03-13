@@ -1,0 +1,252 @@
+/********************************
+импорт шрифтов
+*********************************/
+
+@font-face {
+	font-family: Acrom-bold; /* жирный шрифт */
+	src:url(../fonts/acrom800.otf); /* путь */
+
+}
+
+@font-face {
+	font-family: Acrom; /* нормальный шрифт */
+	src:url(../fonts/acrom400.otf); /* путь */
+}
+
+/*********************************
+сброс стилей
+*********************************/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/********************************
+общие стили
+*******************************/
+
+body {
+	font-family: Acrom;
+}
+
+
+/*********************************
+header, main стили
+*********************************/
+
+.wrap {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+
+header {
+	min-height: 450px;	
+	/*height: 75vh;*/
+	background: url('../img/header_bg.png'); /* фон, картинка */
+	background-size: cover; /* картинка не дублируется, а растягивается*/
+}
+
+.top-line {
+	height: 85px;
+	background: rgba(3,4,5, .4);
+	padding: 40px 0;
+	
+}
+
+.logo	{
+	margin-top: 20px;
+
+}
+
+.phone {
+	font-family: Acrom;
+	font-size: 23px;
+	color: #fff;
+	float: right;
+}
+
+
+.callback {
+	font-family: Acrom;
+	color: #fff;
+	font-size: 9px;
+	background: none;
+	float: right;
+	padding: 5px 10px;
+	border: 2px solid #28557A;
+	border-radius: 10px;
+	margin-top: 35px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+h1 {
+	font-size: 37px;
+	color: #fff;
+	font-family: Acrom-bold;
+	margin-bottom: 40px;
+}
+
+h2 {
+	font-style: 19px;
+	color: #28557A;
+	margin-bottom: 80px;
+}
+
+.main {
+	text-align: center;
+	padding: 90px 0 130px 0;
+}
+
+.register {
+	font-family: Acrom-bold;
+	font-style: 10px;
+	color: #fff;
+	background: #EE6E22;
+	border-radius: 10px;
+	padding: 20px 5px;
+	border: none;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.callback2 {
+	float: none;
+	cursor: pointer;
+}
+
+.callback2 img {
+	width: 16px;
+}
+
+.callback span{
+	position: relative;
+	top: -4px;
+}
+
+.divider {
+	height: 80px;
+	background: #EE6E22;
+}
+
+.program {
+	padding: 70px 0;
+	background: #fff;
+	
+}
+
+.man {
+
+}
+
+.right {
+	width: 500px;
+	float: right;
+}
+
+ h3 {
+	font-family: Acrom-bold;
+	font-size: 42px;
+	margin-bottom: 45px;
+}
+ul li {
+	color: #00aaeb;
+	font-family: Acrom-bold;
+	font-size: 24px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	margin-left: 27px;
+
+}
+
+.comment {
+	/*background: url('../img/');*/
+	padding: 100px 0 180px 0;
+	background: #171E29;
+}
+
+.comment-image {
+	border-radius: 100%;
+}
+
+.comment h3 {
+	color: #00aaeb;
+	font-size: 35px;
+	font-family: Acrom-bold;
+}
+
+.comment p {
+	color: #fff;
+	font-size: 16px;
+}
+
+.clear-fix {
+	clear: both;
+}
+
+/********************************************
+	footer
+*********************************************/
+
+footer {
+	background: #07101B;
+	padding: 150px 0;
+}
+
+.col-3 {
+	width: 33.333%; /* т.к. 3 колонки (100/3 = 33,333%) */
+	float: left;
+	color: #fff
+}
+
+.logo-footer {
+
+}
+
+.register-footer {
+
+}
+
+.callback3 {
+	font-family: Acrom;
+	color: #fff;
+	font-size: 9px;
+	background: none;
+	padding: 5px 10px;
+	border: 2px solid #28557A;
+	border-radius: 6px;
+	cursor: pointer;
+	margin-left: 20px;
+	width: 150px;	
+}
+
+footer label {
+	display: inline-block; /* т.к. Label строчный элемент =>*/
+	width: 100px; /* => что бы работало свойство width */
+
+}
+
+footer p {
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
